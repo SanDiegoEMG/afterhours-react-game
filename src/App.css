@@ -22,4 +22,9 @@ h4 {
   text-shadow: 2px 2px white;
   background-repeat: no-repeat;
   margin: 0 10px 20px 10px;
+  outline: 2pt solid grey;
+}
+
+.bun-card:hover {
+  cursor: pointer;
 }
