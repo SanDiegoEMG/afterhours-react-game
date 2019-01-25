@@ -2,7 +2,6 @@ import React from 'react';
 
 function Scoreboard(props) {
     return (
-        <div className="container">
       <header>
         <div className="row">
           <div className="col-sm-4">
@@ -16,7 +15,6 @@ function Scoreboard(props) {
         </div>
       </div>
       </header>
-      </div>
     )
 }
 

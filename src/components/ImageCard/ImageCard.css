@@ -8,13 +8,14 @@
   }
   
   .bun-card {
-    height: 250px;
-    width: 250px;
+    height: 150px;
+    width: 150px;
     color: black;
     text-shadow: 2px 2px white;
     background-repeat: no-repeat;
     margin: 0 10px 20px 10px;
     outline: 2pt solid grey;
+    background-size: 150px;
   }
   
   .bun-card:hover {
