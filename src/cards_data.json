@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "image": "./assets/images/black-and-white.jpg",
+        "name": "Black & white bunny"
+    },
+    {
+        "id": 2,
+        "image": "/assets/images/brown-and-white-lop.jpg",
+        "name": "Brown & white lop bunny"
+    },
+    {
+        "id": 3,
+        "image": "/assets/images/brown-hare.jpg",
+        "name": "Brown hare"
+    },
+    {
+        "id": 4,
+        "image": "/assets/images/brown-short-ear.jpg",
+        "name": "Brown short ear bunny"
+    },
+    {
+        "id": 5,
+        "image": "/assets/images/brown-with-crown.jpg",
+        "name": "Brown bunny with crown"
+    },
+    {
+        "id": 6,
+        "image": "/assets/images/grey-laying.jpg",
+        "name": "Grey bunny laying down"
+    },
+    {
+        "id": 7,
+        "image": "/assets/images/grey-lop.jpg",
+        "name": "Grey lop bunny"
+    },
+    {
+        "id": 8,
+        "image": "/assets/images/grey.jpg",
+        "name": "Grey bunny"
+    },
+    {
+        "id": 9,
+        "image": "/assets/images/short-hair-white.jpg",
+        "name": "Short white hair bunny"
+    },
+    {
+        "id": 10,
+        "image": "/assets/images/tiara.jpg",
+        "name": "Bunny with tiara"
+    },
+    {
+        "id": 11,
+        "image": "/assets/images/bunny-and-chick.jpg",
+        "name": "Bunny with chick"
+    },
+    {
+        "id": 12,
+        "image": "/assets/images/yippee-grey.jpg",
+        "name": "Little grey yippee bunny"
+    }
+]
