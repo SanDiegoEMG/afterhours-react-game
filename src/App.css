@@ -6,25 +6,3 @@ html {
 h4 {
   margin-top: 2em;
 }
-.row {
-  min-height: 50px;
-  text-align: center;
-  margin: 10pt 0 10pt 0;
-  background-color: lightskyblue;
-  padding-top: 15px;
-  align-content: center;
-}
-
-.bun-card {
-  height: 250px;
-  width: 250px;
-  color: black;
-  text-shadow: 2px 2px white;
-  background-repeat: no-repeat;
-  margin: 0 10px 20px 10px;
-  outline: 2pt solid grey;
-}
-
-.bun-card:hover {
-  cursor: pointer;
-}

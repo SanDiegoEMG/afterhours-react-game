@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 import cards from "./cards_data.json";
 import Scoreboard from "./components/Scoreboard/Scoreboard"
+import Card from "./components/ImageCard/ImageCard"
 
 class App extends Component {
   // anything that is in the state, is something that can be dynamically changed through user interaction
@@ -23,30 +24,22 @@ class App extends Component {
 
   render() {
     return (
-    <div> 
-
+    <div className="container"> 
       <Scoreboard
         score={this.state.score} 
         tally={this.state.tally}
         />
-
-      <div className="container">
-          <div className="row">
-            {this.state.bunnies.map(bunny => (
-              <div 
-                style={{backgroundImage: `url(${bunny.image})`}}
-                key={bunny.id}
-                className="bun-card col-md-3" 
-                onClick={() => this.handleClicked(bunny.id)}
-                >
-                <p>{bunny.name}</p>
-              </div>
-            ))}
-         </div>  
-
-        <div className="row">  </div>
-
-       </div>
+        <div className="row">
+        {this.state.bunnies.map(bunny => (
+          <Card 
+            key={bunny.id}
+            id={bunny.id}
+            name={bunny.name}
+            image={bunny.image}
+            handleClicked={this.handleClicked}
+          />
+        ))}
+        </div>
 
         <Scoreboard />
     </div>
