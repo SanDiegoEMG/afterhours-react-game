@@ -12,9 +12,14 @@ h4 {
   margin: 10pt 0 10pt 0;
   background-color: lightskyblue;
   padding-top: 15px;
+  align-content: center;
 }
 
 .bun-card {
-  height: 200px;
-  width: 200px;
+  height: 250px;
+  width: 250px;
+  color: black;
+  text-shadow: 2px 2px white;
+  background-repeat: no-repeat;
+  margin: 0 10px 20px 10px;
 }

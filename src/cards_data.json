@@ -16,13 +16,13 @@
     },
     {
         "id": 4,
-        "image": "/assets/images/brown-short-ear.jpg",
-        "name": "Brown short ear bunny"
+        "image": "/assets/images/brown-with-crown.jpg",
+        "name": "Brown bunny with crown"
     },
     {
         "id": 5,
-        "image": "/assets/images/brown-with-crown.jpg",
-        "name": "Brown bunny with crown"
+        "image": "/assets/images/brown-short-ear.jpg",
+        "name": "Brown short ear bunny"
     },
     {
         "id": 6,
@@ -31,18 +31,18 @@
     },
     {
         "id": 7,
-        "image": "/assets/images/grey-lop.jpg",
-        "name": "Grey lop bunny"
+        "image": "/assets/images/short-hair-white.jpg",
+        "name": "Short white hair bunny"
     },
     {
         "id": 8,
         "image": "/assets/images/grey.jpg",
-        "name": "Grey bunny"
+        "name": "Grey long ear"
     },
     {
         "id": 9,
-        "image": "/assets/images/short-hair-white.jpg",
-        "name": "Short white hair bunny"
+        "image": "/assets/images/bunny-and-chick.jpg",
+        "name": "Bunny with chick"
     },
     {
         "id": 10,
@@ -51,12 +51,12 @@
     },
     {
         "id": 11,
-        "image": "/assets/images/bunny-and-chick.jpg",
-        "name": "Bunny with chick"
+        "image": "/assets/images/grey-lop.jpg",
+        "name": "Grey lop bunny"
     },
     {
         "id": 12,
         "image": "/assets/images/yippee-grey.jpg",
-        "name": "Little grey yippee bunny"
+        "name": "Little grey yippee"
     }
 ]

@@ -10,6 +10,12 @@ class App extends Component {
     bunnies: cards
   };
 
+
+  handleClicked = id => {
+    console.log(`clicked bunny with id# ${id}`);
+  }
+
+
   render() {
     return (
     <div> 
@@ -19,11 +25,11 @@ class App extends Component {
           <div className="col-sm-4">
             <h4> React 'til the end!</h4>
           </div>
-        <div className="col-sm-4">
-          <h4>Or get outta the way!</h4>
+          <div className="col-sm-4">
+          <h2> Score: {this.state.score} | Tally: {this.state.tally} </h2>
         </div>
         <div className="col-sm-4">
-          <h2> Score: {this.state.score} | Tally: {this.state.tally} </h2>
+          <h4>Or get outta the way!</h4>
         </div>
       </div>
       </header>
@@ -33,9 +39,11 @@ class App extends Component {
         <div className="row">
           {this.state.bunnies.map(bunny => (
             <div 
+              style={{backgroundImage: `url(${bunny.image})`}}
               key={bunny.id}
-              className="bun-card col-md-4" 
-              style={{backgroundImage: `url(${bunny.image})`}}>
+              className="bun-card col-md-3" 
+              onClick={() => this.handleClicked(bunny.id)}
+              >
               <p>{bunny.name}</p>
             </div>
            ))}
